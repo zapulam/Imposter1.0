@@ -1,3 +1,4 @@
+import { createElement } from 'react'
 import {
   BookOpen,
   EyeOff,
@@ -9,11 +10,11 @@ import {
 } from 'lucide-react'
 import { PrimaryButton, SecondaryButton } from '../components/ScreenShell.jsx'
 
-function FeatureTile({ icon: Icon, label, sub }) {
+function FeatureTile({ icon, label, sub }) {
   return (
     <div className="rounded-2xl border border-white/10 bg-surface-900/50 backdrop-blur-md px-3 py-3 text-center shadow-lg shadow-black/20">
       <div className="mx-auto mb-1.5 flex h-9 w-9 items-center justify-center rounded-xl bg-accent/15 text-accent">
-        <Icon className="h-4 w-4" aria-hidden />
+        {createElement(icon, { className: 'h-4 w-4', 'aria-hidden': true })}
       </div>
       <p className="text-[11px] font-semibold uppercase tracking-wide text-slate-200">{label}</p>
       <p className="mt-0.5 text-[10px] leading-tight text-slate-500">{sub}</p>
