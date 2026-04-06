@@ -4,7 +4,7 @@ A **pass-the-device** party game for 3–20 players, built with React, Tailwind 
 
 Play for free **[here](https://zapulam.github.io/Imposter1.0/)**.
 
-Imposter Party Game React Tailwind CSS Vite
+![Imposter Party Game](https://img.shields.io/badge/React-19.0.0-blue) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0.6-38B2AC) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.4.1-purple)
 
 ## 🎮 Game Overview
 
